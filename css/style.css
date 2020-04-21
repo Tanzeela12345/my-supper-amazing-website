@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial;
+}
+body{
+	font-family:Arial;
+}
+.hundred{
+	width:100%;
+	float:left;
+}
+.container{
+	max-width:1280px;
+	margin:auto;
+	padding:0 20px;
+}
+h1{
+	text-align:center;
+	padding:10px;
+
+}
+.main-register{text-align:center;background:url(../images/reg-form.jpg) no-repeat 0 0 / cover ; padding-bottom:20px;}
+div.registeration {
+	background-color:f2f2f2;
+	max-width:500px;
+	width:100%;
+	margin:10px 0px 0px 0;
+	color:black;
+	font-size:10px;
+	padding:10px;
+	border-radius:10px;
+	border:6px groove #fff;
+	display:inline-block;
+	float:none;
+}
+div.registeration .input-row{margin-bottom:10px;}
+div.registeration label{
+	font-size:14px;
+	font-weight:normal;
+	display:block;
+	text-align:left;
+	margin-bottom:5px;
+}
+div.registeration input:not([type=radio]), div.registeration select, div.registeration textarea{
+	width:100%;
+	float:left;
+	padding:5px;
+}
